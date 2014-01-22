@@ -2285,14 +2285,14 @@ header title {
 {
 	min-height: 58em;
 }
-.content h1
+.content h2
 {
 	border-bottom: 1px solid #222;
 	font-family: Georgia,"Times New Roman",Times,serif;
 	font-size: 6em;
 	letter-spacing: 0.04em;
 	margin-top: 1em;
-	padding-bottom: 0.6em;
+	/*padding-bottom: 0.6em;*/
 }
 .top-strip
 {
