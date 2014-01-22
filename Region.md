@@ -1,5 +1,8 @@
-#Region
-
+---
+title: Region
+layout: type
+categories: type
+---
 ##Properties
 * Inherits properties of [schema:Organization](http://schema.org/Organization)
 
