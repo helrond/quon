@@ -2255,21 +2255,6 @@ main.container,main.content>.container
 {
 	text-align: center;
 }
-.a-hover,.entries h3,.entries a,.home-icon a
-{
-	color: #333;
-	moz-transition: 0.3s linear;
-	o-transition: 0.3s linear;
-	transition: 0.3s linear;
-	webkit-transition: 0.3s linear;
-}
-.a-hover:hover,.entries h3:hover,.entries a:hover,.home-icon a:hover
-{
-	color: #333;
-	filter: alpha(opacity=50);
-	opacity: 0.5;
-	text-decoration: none;
-}
 header {
     color:#fff;
     font-family: 'Noto Serif';
@@ -2281,6 +2266,21 @@ header title {
 {
 	background-color: #fff;
 }
+.content a
+{
+	color: #333;
+	moz-transition: 0.3s linear;
+	o-transition: 0.3s linear;
+	transition: 0.3s linear;
+	webkit-transition: 0.3s linear;
+}
+.content a:hover
+{
+	color: #333;
+	filter: alpha(opacity=50);
+	opacity: 0.5;
+	text-decoration: none;
+}
 .content>.container
 {
 	min-height: 58em;
@@ -2291,6 +2291,10 @@ header title {
 	font-family: Georgia,"Times New Roman",Times,serif;
 	font-size: 3em;
 	margin-top: 1em;
+}
+.content li
+{
+    list-style-type: square
 }
 .top-strip
 {
