@@ -3,9 +3,9 @@ title: Keeper
 layout: type
 categories: type
 ---
-Definition goes here.
+player whose primary purpose is to keep opposing players from scoring with the quaffle but may also score with the quaffle
 ##Properties
 * Inherits properties of [schema:Person](http://schema.org/Person) and [Player](Player) and [Chaser](Chaser)
-* stops (how is this different from Goals Stopped in Chaser?)
+* goalsSaved
 * goalsAllowed
 * saveRate
