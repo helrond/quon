@@ -3,9 +3,8 @@ title: Seeker
 layout: type
 categories: type
 ---
-Definition goes here.
+a player whose purpose is to catch the snitch 
 ##Properties
 * Inherits properties of [schema:Person](http://schema.org/Person) and [Player](Player)
 * snitchCatch
-* defendingTime
 * catchTime
