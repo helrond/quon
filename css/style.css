@@ -2259,8 +2259,15 @@ header {
     color:#fff;
     font-family: 'Noto Serif';
 }
-header title {
-    font-family: Georgia,"Times New Roman",Times,serif;
+header a {
+    color:#fff;
+}
+header a:hover {
+    color:#999;
+    moz-transition: 0.3s linear;
+	o-transition: 0.3s linear;
+	transition: 0.3s linear;
+	webkit-transition: 0.3s linear;
 }
 .content
 {
