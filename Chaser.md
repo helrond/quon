@@ -3,10 +3,10 @@ title: Chaser
 layout: type
 categories: type
 ---
-Definition goes here.
+player who attempts to score with the quaffle and keep opposing players from scoring with the quaffle
 ##Properties
 * Inherits properties of [schema:Person](http://schema.org/Person) and [Player](Player)
-* goalsStopped
+* goalsMissed
 * goalsAttempted
 * goalsScored
 * scoringRate
