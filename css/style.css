@@ -2264,6 +2264,7 @@ header a {
 }
 header a:hover {
     color:#999;
+    text-decoration:none;
     moz-transition: 0.3s linear;
 	o-transition: 0.3s linear;
 	transition: 0.3s linear;
