@@ -1,5 +1,5 @@
 ---
-title: number
+title: Save Rate
 layout: property
 categories: property
 ---

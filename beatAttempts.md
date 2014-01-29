@@ -1,5 +1,5 @@
 ---
-title: number
+title: Beat Attempts
 layout: property
 categories: property
 ---

@@ -1,5 +1,5 @@
 ---
-title: number
+title: Beat Rate
 layout: property
 categories: property
 ---

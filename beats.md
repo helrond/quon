@@ -1,5 +1,5 @@
 ---
-title: number
+title: Beats
 layout: property
 categories: property
 ---

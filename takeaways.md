@@ -1,8 +1,8 @@
 ---
-title: number
+title: Takeaways
 layout: property
 categories: property
 ---
-player gains possession of quaffle from opposing player. Player who has full possession is credited with takeaway.
+A takeaway occurs when a player gains possession of quaffle from opposing player. Player must have full possession to be credited with a takeaway.
 ##Expected Type
 * Integer

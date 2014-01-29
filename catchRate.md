@@ -1,5 +1,5 @@
 ---
-title: number
+title: Snitch Catch Rate
 layout: property
 categories: property
 ---

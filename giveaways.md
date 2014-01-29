@@ -1,5 +1,5 @@
 ---
-title: number
+title: Giveaways
 layout: property
 categories: property
 ---

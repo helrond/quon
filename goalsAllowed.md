@@ -1,5 +1,5 @@
 ---
-title: number
+title: Goals Allowed
 layout: property
 categories: property
 ---

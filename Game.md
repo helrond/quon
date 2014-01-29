@@ -9,3 +9,4 @@ a match between two teams
 * winner typeOf [Team](Team)
 * loser typeOf [Team](Team)
 * finalScore
+* [timeOfPossession](timeOfPossession)

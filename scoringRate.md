@@ -1,5 +1,5 @@
 ---
-title: number
+title: Scoring Rate
 layout: property
 categories: property
 ---

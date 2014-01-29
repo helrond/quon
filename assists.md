@@ -1,5 +1,5 @@
 ---
-title: number
+title: Assists
 layout: property
 categories: property
 ---

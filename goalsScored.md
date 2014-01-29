@@ -1,5 +1,5 @@
 ---
-title: number
+title: Goals Scored
 layout: property
 categories: property
 ---

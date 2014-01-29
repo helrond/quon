@@ -1,8 +1,8 @@
 ---
-title: number
+title: Tackles
 layout: property
 categories: property
 ---
-player takes an opposing player to the ground.
+a tackle occurs when a player takes an opposing player to the ground.
 ##Expected Type
 * Integer
