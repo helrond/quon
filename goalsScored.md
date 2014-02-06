@@ -6,4 +6,4 @@ categories: property
 Number of goals scored by a player.
 ##Expected Type
 * Integer
-* hasType drive, shot
+* hasType [drive](drive), [shot](shot)
