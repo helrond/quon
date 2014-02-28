@@ -9,3 +9,4 @@ player whose primary purpose is to keep opposing players from scoring with the q
 * [goalsSaved](goalsSaved)
 * [goalsAllowed](goalsAllowed)
 * [saveRate](saveRate)
+* [fouls](fouls)

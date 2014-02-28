@@ -13,3 +13,4 @@ player who attempts to score with the quaffle and keep opposing players from sco
 * [assists](assists)
 * [takeaways](takeaways)
 * [giveaways](giveaways)
+* [fouls](fouls)

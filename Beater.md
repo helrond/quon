@@ -13,3 +13,4 @@ player who attempts to hit opposing players with a bludger
 * [repossessions](repossessions)
 * [reposessionRate](repossessionRate)
 * [tackles](tackles)
+* [fouls](fouls)
