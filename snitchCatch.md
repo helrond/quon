@@ -6,3 +6,4 @@ categories: property
 Catch of the snitch by a seeker. Ends the game.
 ##Expected Type
 * Integer
+* adds 30 to [teamScore](teamScore)
