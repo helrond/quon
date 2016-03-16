@@ -6,6 +6,6 @@ categories: property
 
 Definition goes here.
 
-##Expected Type
+## Expected Type
 
 *   Text

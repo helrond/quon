@@ -6,7 +6,7 @@ categories: type
 
 a group of players
 
-##Properties
+## Properties
 
 *   Inherits properties of [schema:SportsTeam](http://schema.org/SportsTeam)
 *   member hasType [Player](Player)

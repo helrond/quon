@@ -6,7 +6,7 @@ categories: type
 
 a match between two teams
 
-##Properties
+## Properties
 
 *   Inherits properties of [schema:SportsEvent](http://schema.org/SportsEvent)
 *   winner typeOf [Team](Team)

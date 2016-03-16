@@ -6,6 +6,6 @@ categories: property
 
 Percentage of scoring attempts in which an offensive chaser succesfully scores a goal.
 
-##Expected Type
+## Expected Type
 
 *   Percentage

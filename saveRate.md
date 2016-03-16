@@ -6,6 +6,6 @@ categories: property
 
 Percentage of scoring attempts against that a keeper saves.
 
-##Expected Type
+## Expected Type
 
 *   Percentage

@@ -6,6 +6,6 @@ categories: property
 
 Time from seeker floor to snitch catch.
 
-##Expected Type
+## Expected Type
 
 *   Time

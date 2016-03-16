@@ -6,6 +6,6 @@ categories: property
 
 Foul that involves illegal procedure, such as an equipment infractions, or illegal substitutions.
 
-##Expected Type
+## Expected Type
 
 *   hasType boolean

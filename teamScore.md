@@ -6,6 +6,6 @@ categories: property
 
 Team's total points scored for a game.
 
-##Expected Type
+## Expected Type
 
 *   hasType Integer

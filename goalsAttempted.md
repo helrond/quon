@@ -6,7 +6,7 @@ categories: property
 
 Number of direct scoring attempts a player makes.
 
-##Expected Type
+## Expected Type
 
 *   Integer
 *   hasType [drive](drive), [shot](shot)

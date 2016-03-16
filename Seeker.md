@@ -6,7 +6,7 @@ categories: type
 
 a player whose purpose is to catch the snitch
 
-##Properties
+## Properties
 
 *   Inherits properties of [schema:Person](http://schema.org/Person) and [Player](Player)
 *   snitchCatch

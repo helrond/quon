@@ -6,6 +6,6 @@ categories: property
 
 Foul relating to a player's conduct on the pitch.
 
-##Expected Type
+## Expected Type
 
 *   hasType boolean

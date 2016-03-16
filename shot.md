@@ -6,6 +6,6 @@ categories: property
 
 scoring attempt where quaffle is released at least 3 feet from the hoops.
 
-##Expected Type
+## Expected Type
 
 *   hasType boolean
