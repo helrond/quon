@@ -1,5 +1,5 @@
 ---
-title: unsportsmanlikeConduct
+title: Unsportsmanlike Conduct
 layout: property
 categories: property
 ---

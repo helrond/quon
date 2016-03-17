@@ -1,5 +1,5 @@
 ---
-title: shot
+title: Shot
 layout: property
 categories: property
 ---

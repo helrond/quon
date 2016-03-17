@@ -1,5 +1,5 @@
 ---
-title: illegalContact
+title: Illegal Contact
 layout: property
 categories: property
 ---

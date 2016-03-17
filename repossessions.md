@@ -1,5 +1,5 @@
 ---
-title: repossessions
+title: Repossessions
 layout: property
 categories: property
 ---

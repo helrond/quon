@@ -1,5 +1,5 @@
 ---
-title: redCard
+title: Red Card
 layout: property
 categories: property
 ---

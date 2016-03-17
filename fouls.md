@@ -1,5 +1,5 @@
 ---
-title: fouls
+title: Fouls
 layout: property
 categories: property
 ---

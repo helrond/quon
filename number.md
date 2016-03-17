@@ -1,5 +1,5 @@
 ---
-title: number
+title: Number
 layout: property
 categories: property
 ---

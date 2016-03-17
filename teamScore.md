@@ -1,5 +1,5 @@
 ---
-title: teamScore
+title: Team Score
 layout: property
 categories: property
 ---

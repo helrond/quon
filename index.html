@@ -2,19 +2,20 @@
 layout: default
 title: home
 ---
+{% assign sorted_pages = (site.pages | sort: 'title') %}
+{% assign types = (sorted_pages | where: "categories" , "type") %}
+{% assign properties = (sorted_pages | where: "categories" , "property") %}
 <h2>About</h2>
 <p>A data model for muggle quidditch.</p>
-<h2>Basic Types</h2>
+<h2>Types</h2>
 <ul>
-  <li><a href="{{site.baseurl}}/Region">Region</a></li>
-  <li><a href="{{site.baseurl}}/Conference">Conference</a></li>
-  <li><a href="{{site.baseurl}}/Team">Team</a></li>
-  <li><a href="{{site.baseurl}}/Game">Game</a></li>
-  <li><a href="{{site.baseurl}}/Player">Player</a></li>
-  <ul>
-    <li><a href="{{site.baseurl}}/Beater">Beater</a></li>
-    <li><a href="{{site.baseurl}}/Chaser">Chaser</a></li>
-    <li><a href="{{site.baseurl}}/Keeper">Keeper</a></li>
-    <li><a href="{{site.baseurl}}/Seeker">Seeker</a></li>
-  </ul>
+  {% for type in types %}
+   <li><a href="{{type.url | prepend: site.baseurl}}">{{type.title}}</a></li>
+  {% endfor %}
+</ul>
+<h2>Properties</h2>
+<ul>
+  {% for property in properties %}
+   <li><a href="{{property.url | prepend: site.baseurl}}">{{property.title}}</a></li>
+  {% endfor %}
 </ul>

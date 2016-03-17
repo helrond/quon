@@ -1,5 +1,5 @@
 ---
-title: gameplayInfraction
+title: Gameplay Infraction
 layout: property
 categories: property
 ---

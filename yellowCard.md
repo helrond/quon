@@ -1,5 +1,5 @@
 ---
-title: yellowCard
+title: Yellow Card
 layout: property
 categories: property
 ---

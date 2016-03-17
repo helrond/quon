@@ -1,5 +1,5 @@
 ---
-title: procedureInfraction
+title: Procedure Infraction
 layout: property
 categories: property
 ---
