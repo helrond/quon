@@ -1,0 +1,16 @@
+---
+title: Teams
+layout: category
+---
+
+<img class="img-responsive" src='http://g.gravizo.com/g?
+ digraph G {
+   Region -> Conference [label="hasMember"];
+   Conference -> Region [label="isMemberOf"];
+   Conference -> Team [label="hasMember"];
+   Team -> Conference [label="isMemberOf"];
+   Team -> Statistic [label="hasProperty"];
+   Team -> Player [label="hasMember"];
+   Player -> Team [label="isMemberOf"];
+ }
+'/>

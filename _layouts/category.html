@@ -1,0 +1,14 @@
+---
+layout: page
+---
+{% capture category %}{{ page.title | downcase }}{% endcapture %}
+<h2>Graph</h2>
+<div class="row">
+  {{content}}
+</div>
+
+<h2>Details</h2>
+{% assign sorted_pages = (site.pages | sort: 'title') %}
+{% assign items = (sorted_pages | where: "categories" , category) %}
+
+{% include list.html %}

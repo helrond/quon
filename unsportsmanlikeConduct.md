@@ -1,11 +1,7 @@
 ---
 title: Unsportsmanlike Conduct
-layout: property
-categories: property
+layout: node
+categories: fouls
+description: A foul relating to a player's conduct on the pitch.
+expected_type: Boolean
 ---
-
-Foul relating to a player's conduct on the pitch.
-
-## Expected Type
-
-*   hasType boolean

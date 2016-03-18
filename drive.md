@@ -1,11 +1,7 @@
 ---
 title: Drive
-layout: property
-categories: property
+layout: node
+categories: statistics
+description: Attempt to score where quaffle is released within 3 feet of the hoops
+expected_type: Boolean
 ---
-
-Attempt to score where quaffle is released within 3 feet of the hoops
-
-## Expected Type
-
-*   hasType boolean

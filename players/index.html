@@ -1,0 +1,18 @@
+---
+title: Players
+layout: category
+---
+
+<img class="img-responsive" src='http://g.gravizo.com/g?
+   digraph G {
+     Player -> Number [label="hasProperty"];
+     Player -> Beater [label="hasType"];
+     Player -> Chaser [label="hasType"];
+     Player -> Keeper [label="hasType"];
+     Player -> Seeker [label="hasType"];
+     Seeker -> Player [label="isOneOf"];
+     Beater -> Player [label="isOneOf"];
+     Chaser -> Player [label="isOneOf"];
+     Keeper -> Player [label="isOneOf"];
+   }
+  '/>

@@ -1,0 +1,19 @@
+---
+title: Fouls
+layout: category
+---
+
+<img class="img-responsive" src='http://g.gravizo.com/g?
+   digraph G {
+     Foul -> redCard [label="hasProperty"];
+     Foul -> yellowCard [label="hasProperty"];
+     Foul -> gameplayInfraction [label="hasType"];
+     Foul -> illegalContact [label="hasType"];
+     Foul -> procedureInfraction [label="hasType"];
+     Foul -> unsportsmanlikeConduct [label="hasType"];
+     gameplayInfraction -> Foul [label="isOneOf"];
+     illegalContact -> Foul [label="isOneOf"];
+     procedureInfraction -> Foul [label="isOneOf"];
+     unsportsmanlikeConduct -> Foul [label="isOneOf"];
+   }
+  '/>

@@ -1,13 +1,9 @@
 ---
 title: Yellow Card
-layout: property
-categories: property
+layout: node
+categories: fouls
+description: Player must serve one minute in the penalty box, or until the opponents score. Two Yellow Care offenses in one game result in a Red Card.
+expected_type: Boolean
 ---
 
-Player must serve one minute in the penalty box, or until the opponents score.
-
-## Expected Type
-
-*   hasType boolean
-*   hasType [procedureInfraction](procedureInfraction), [illegalContact](illegalContact), [gameplayInfraction](gameplayInfraction), [unsportsmanlikeConduct](unsportsmanlikeConduct)
-*   two yellowCard offenses in one [Game](Game) result in a [redCard](redCard)
+*   hasFoul [procedureInfraction](procedureInfraction), [illegalContact](illegalContact), [gameplayInfraction](gameplayInfraction), [unsportsmanlikeConduct](unsportsmanlikeConduct)

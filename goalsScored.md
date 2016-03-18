@@ -1,13 +1,8 @@
 ---
 title: Goals Scored
-layout: property
-categories: property
+layout: node
+categories: statistics
+description: The number of goals scored by a player.
+expected_type: Integer
+properties: [drive, shot]
 ---
-
-Number of goals scored by a player.
-
-## Expected Type
-
-*   Integer
-*   hasType [drive](drive), [shot](shot)
-*   adds 10 to [teamScore](teamScore)

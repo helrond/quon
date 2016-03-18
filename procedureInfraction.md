@@ -1,11 +1,8 @@
 ---
 title: Procedure Infraction
-layout: property
-categories: property
+layout: node
+categories: fouls
+description: Foul that involves illegal procedure, such as an equipment infractions, or illegal substitutions.
+expected_type: Boolean
+properties: [redCard, yellowCard]
 ---
-
-Foul that involves illegal procedure, such as an equipment infractions, or illegal substitutions.
-
-## Expected Type
-
-*   hasType boolean

@@ -1,11 +1,7 @@
 ---
 title: Gameplay Infraction
-layout: property
-categories: property
+layout: node
+categories: fouls
+description: Illegal interaction with players or balls of different positions.
+expected_type: Boolean
 ---
-
-Illegal interaction with players or balls of different positions.
-
-## Expected Type
-
-*   hasType boolean

@@ -1,14 +1,8 @@
 ---
 title: Seeker
-layout: type
-categories: type
+layout: node
+categories: players
+description: A player whose purpose is to catch the snitch
+expected_type: Player
+properties: [snitchCatch, catchTime, fouls]
 ---
-
-a player whose purpose is to catch the snitch
-
-## Properties
-
-*   Inherits properties of [schema:Person](http://schema.org/Person) and [Player](Player)
-*   snitchCatch
-*   catchTime
-*   [fouls](fouls)

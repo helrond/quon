@@ -1,15 +1,7 @@
 ---
 title: Team
-layout: type
-categories: type
+layout: node
+categories: teams
+description: A group of players
+expected_type: schema:SportsTeam
 ---
-
-a group of players
-
-## Properties
-
-*   Inherits properties of [schema:SportsTeam](http://schema.org/SportsTeam)
-*   member hasType [Player](Player)
-*   [timeOfPossession](timeOfPossession)
-*   score hasType integer
-*   winner hasType boolean

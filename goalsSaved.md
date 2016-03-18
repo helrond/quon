@@ -1,11 +1,7 @@
 ---
 title: Goals Saved
-layout: property
-categories: property
+layout: node
+categories: statistics
+description: The number of goals saved by Keeper.
+expected_type: Integer
 ---
-
-Number of goals saved by Keeper.
-
-## Expected Type
-
-*   Integer

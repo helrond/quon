@@ -1,11 +1,7 @@
 ---
 title: Repossessions
-layout: property
-categories: property
+layout: node
+categories: statistics
+description: Beater gains control of a bludger from an opposing player
+expected_type: Integer
 ---
-
-Beater gains control of a bludger from an opposing player
-
-## Expected Type
-
-*   Integer

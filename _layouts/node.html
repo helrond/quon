@@ -1,0 +1,20 @@
+---
+layout: default
+---
+<article>
+	<h1>{{ page.title }} <small>{{ page.description }}</small></h1>
+	<h2>Expected Type</h2>
+	<p>{{ page.expected_type }}</p>
+	{% if page.properties %}
+		<h2>Properties</h2>
+		{% for property in page.properties %}
+			<p><a href="{{ property | prepend: "/" | prepend: site.baseurl }}">{{property}}</a></p>
+		{% endfor %}
+	{% endif %}
+	{% if page.subtypes %}
+		<h2>Subtypes</h2>
+		{% for subtype in page.subtypes %}
+			<p><a href="{{ subtype | prepend: "/" | prepend: site.baseurl }}">{{subtype}}</a></p>
+		{% endfor %}
+	{% endif %}
+</article>

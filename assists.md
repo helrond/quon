@@ -1,11 +1,7 @@
 ---
 title: Assists
-layout: property
-categories: property
+layout: node
+categories: statistics
+description: The second to last offensive touch before a goal is scored.
+expected_type: Integer
 ---
-
-second to last offensive touch before a goal is scored
-
-## Expected Type
-
-*   Integer

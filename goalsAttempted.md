@@ -1,12 +1,8 @@
 ---
 title: Goals Attempted
-layout: property
-categories: property
+layout: node
+categories: statistics
+description: The number of direct scoring attempts a player makes.
+expected_type: Integer
+properties: [drive, shot]
 ---
-
-Number of direct scoring attempts a player makes.
-
-## Expected Type
-
-*   Integer
-*   hasType [drive](drive), [shot](shot)

@@ -1,0 +1,14 @@
+---
+title: Games
+layout: category
+---
+
+<img class="img-responsive" src='http://g.gravizo.com/g?
+ digraph G {
+   Game -> Team [label="hasMember"];
+   Team -> Game  [label="isMemberOf"];
+   Game -> winner [label="hasProperty"];
+   Game -> loser [label="hasProperty"];
+   Game -> finalScore [label="hasProperty"];
+ }
+'/>

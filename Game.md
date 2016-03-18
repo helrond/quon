@@ -1,15 +1,8 @@
 ---
 title: Game
-layout: type
-categories: type
+layout: node
+categories: games
+description: A contest between two teams
+expected_type: schema:SportsEvent
+properties: [winner, loser, finalScore]
 ---
-
-a match between two teams
-
-## Properties
-
-*   Inherits properties of [schema:SportsEvent](http://schema.org/SportsEvent)
-*   winner typeOf [Team](Team)
-*   loser typeOf [Team](Team)
-*   finalScore
-*   [timeOfPossession](timeOfPossession)

@@ -1,11 +1,7 @@
 ---
 title: Tackles
-layout: property
-categories: property
+layout: node
+categories: statistics
+description: A tackle occurs when a player takes an opposing player to the ground.
+expected_type: Integer
 ---
-
-a tackle occurs when a player takes an opposing player to the ground.
-
-## Expected Type
-
-*   Integer

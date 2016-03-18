@@ -1,11 +1,7 @@
 ---
 title: Shot
-layout: property
-categories: property
+layout: node
+categories: statistics
+description: A scoring attempt where the quaffle is released at least 3 feet from the hoops.
+expected_type: Boolean
 ---
-
-scoring attempt where quaffle is released at least 3 feet from the hoops.
-
-## Expected Type
-
-*   hasType boolean

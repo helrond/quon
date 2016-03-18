@@ -1,12 +1,9 @@
 ---
 title: Snitch Catch
-layout: property
-categories: property
+layout: node
+categories: statistics
+description: Catch of the snitch by a seeker. Ends the game.
+expected_type: Integer
 ---
 
-Catch of the snitch by a seeker. Ends the game.
-
-## Expected Type
-
-*   Integer
-*   adds 30 to [teamScore](teamScore)
+adds 30 to [teamScore](teamScore)

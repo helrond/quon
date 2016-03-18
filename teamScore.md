@@ -1,11 +1,7 @@
 ---
 title: Team Score
-layout: property
-categories: property
+layout: node
+categories: statistics
+description: A team's total points scored for a game.
+expected_type: Integer
 ---
-
-Team's total points scored for a game.
-
-## Expected Type
-
-*   hasType Integer

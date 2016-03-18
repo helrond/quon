@@ -1,11 +1,7 @@
 ---
 title: Goals Allowed
-layout: property
-categories: property
+layout: node
+categories: statistics
+description: The number of goals allowed while a keeper is on the pitch.
+expected_type: Integer
 ---
-
-number of goals allowed while a keeper is on the pitch.
-
-## Expected Type
-
-*   Integer

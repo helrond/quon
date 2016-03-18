@@ -1,11 +1,7 @@
 ---
 title: Catch Time
-layout: property
-categories: property
+layout: node
+categories: statistics
+description: Time from seeker floor to snitch catch.
+expected_type: Time
 ---
-
-Time from seeker floor to snitch catch.
-
-## Expected Type
-
-*   Time

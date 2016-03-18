@@ -1,12 +1,7 @@
 ---
 title: Time of Possession
-layout: property
-categories: property
+layout: node
+categories: statistics
+description: The time which a team has possession of two bludgers during a game
+expected_type: Time
 ---
-
-time which a team has possession of two bludgers.
-
-
-## Expected Type
-
-*   Time

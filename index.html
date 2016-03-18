@@ -2,20 +2,59 @@
 layout: default
 title: home
 ---
-{% assign sorted_pages = (site.pages | sort: 'title') %}
-{% assign types = (sorted_pages | where: "categories" , "type") %}
-{% assign properties = (sorted_pages | where: "categories" , "property") %}
-<h2>About</h2>
+<h1>About</h1>
 <p>A data model for muggle quidditch.</p>
-<h2>Types</h2>
-<ul>
-  {% for type in types %}
-   <li><a href="{{type.url | prepend: site.baseurl}}">{{type.title}}</a></li>
-  {% endfor %}
-</ul>
-<h2>Properties</h2>
-<ul>
-  {% for property in properties %}
-   <li><a href="{{property.url | prepend: site.baseurl}}">{{property.title}}</a></li>
-  {% endfor %}
-</ul>
+
+<img src='http://g.gravizo.com/g?
+ digraph G {
+   Region -> Conference [label="hasMember"];
+   Conference -> Team [label="hasMember"];
+   Game -> Team [label="hasMember"];
+   Team -> Game  [label="isMemberOf"];
+   Game -> winner [label="hasProperty"];
+   Game -> loser [label="hasProperty"];
+   Game -> finalScore [label="hasProperty"];
+   Player -> Number [label="hasProperty"];
+   Player -> Beater [label="hasType"];
+   Player -> Chaser [label="hasType"];
+   Player -> Foul [label="hasProperty"];
+   Player -> Statistic [label="hasProperty"];
+   Player -> Keeper [label="hasType"];
+   Player -> Seeker [label="hasType"];
+   Seeker -> Player [label="isOneOf"];
+   Beater -> Player [label="isOneOf"];
+   Chaser -> Player [label="isOneOf"];
+   Keeper -> Player [label="isOneOf"];
+   Foul -> redCard [label="hasProperty"];
+   Foul -> yellowCard [label="hasProperty"];
+   Foul -> gameplayInfraction [label="hasType"];
+   Foul -> illegalContact [label="hasType"];
+   Foul -> procedureInfraction [label="hasType"];
+   Foul -> unsportsmanlikeConduct [label="hasType"];
+   gameplayInfraction -> Foul [label="isOneOf"];
+   illegalContact -> Foul [label="isOneOf"];
+   procedureInfraction -> Foul [label="isOneOf"];
+   unsportsmanlikeConduct -> Foul [label="isOneOf"];
+   Team -> Statistic [label="hasProperty"];
+   Team -> Player [label="hasMember"];
+   Statistic -> assist [label="hasType"];
+   Statistic -> beatAttempts [label="hasType"];
+   Statistic -> beats [label="hasType"];
+   Statistic -> catchTime [label="hasType"];
+   Statistic -> drive [label="hasType"];
+   Statistic -> giveaways [label="hasType"];
+   Statistic -> goalsAllowed [label="hasType"];
+   Statistic -> goalsAttempted [label="hasType"];
+   Statistic -> goalsSaved [label="hasType"];
+   Statistic -> goalsScored [label="hasType"];
+   Statistic -> repossessionAttempts [label="hasType"];
+   Statistic -> reposessions [label="hasType"];
+   Statistic -> shot [label="hasType"];
+   Statistic -> snitchCatch [label="hasType"];
+   Statistic -> tackles [label="hasType"];
+   Statistic -> takeaways [label="hasType"];
+   Statistic -> teamScore [label="hasType"];
+   Statistic -> shot [label="hasType"];
+   Statistic -> timeOfPossession [label="hasType"];
+ }
+'/>
